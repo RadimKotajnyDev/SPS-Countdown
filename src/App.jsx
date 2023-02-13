@@ -9,7 +9,6 @@ function App() {
                 <Timer />
             </h2>
         </div>
-        {/* TODO: time */}
     </div>
   )
 }
