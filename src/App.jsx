@@ -3,9 +3,9 @@ import Timer from "./Timer.jsx";
 function App() {
     return (
         <div
-            className="bg-gradient-to-t bg-no-repeat from-[#0F2027] to-[#2C5364] bg-[#0F2027] text-white h-screen w-full flex items-center justify-center flex-col">
-            <h1 className="text-6xl font-light">Něco se chystá... 🤔</h1>
-            <h2 className="font-semibold text-9xl">
+            className="bg-gray-800 text-white h-screen w-full flex items-center justify-center flex-col">
+            <h1 className="md:text-6xl text-3xl font-light text-center">Srovnávačka začíná za</h1>
+            <h2 className="font-semibold text-5xl md:text-9xl text-red-600">
                 <Timer/>
             </h2>
         </div>
